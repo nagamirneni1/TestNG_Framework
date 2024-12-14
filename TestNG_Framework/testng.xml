@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.ExtentReports.Reports"></listener>
+	</listeners>
+
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url"
+		value="https://adactinhotelapp.com/index.php"></parameter>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.TestCases.TC_02_SearchHotelTest" />
+			 <class name="com.TestCases.TC_04_BookAHotelTest"/> 
+			 <class name="com.TestCases.TC_05_BookingConfirmationTest"/> 
+			 <class name="com.TestCases.TC_03_SelectHotelTest"/> 
+			<class name="com.TestCases.TC_01_LoginTest" />
+			 <class name="com.TestCases.TC_06_BookedItineryTest"/> 
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

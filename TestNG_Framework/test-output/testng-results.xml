@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T13:26:53 IST" name="Suite" finished-at="2024-10-14T13:28:41 IST" duration-ms="108740">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T13:26:53 IST" name="Test" finished-at="2024-10-14T13:28:41 IST" duration-ms="108740">
+      <class name="com.TestCases.TC_03_SelectHotelTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_03_SelectHotelTest@534a5a98]" started-at="2024-10-14T13:27:42 IST" name="openApplication" finished-at="2024-10-14T13:27:51 IST" duration-ms="9022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SearchHotelTest()[pri:0, instance:com.TestCases.TC_03_SelectHotelTest@534a5a98]" started-at="2024-10-14T13:27:51 IST" name="SearchHotelTest" finished-at="2024-10-14T13:27:55 IST" duration-ms="4461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_03_SelectHotelTest@534a5a98]" started-at="2024-10-14T13:27:55 IST" name="closeapp" finished-at="2024-10-14T13:27:55 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_03_SelectHotelTest -->
+      <class name="com.TestCases.TC_05_BookingConfirmationTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_05_BookingConfirmationTest@5a45133e]" started-at="2024-10-14T13:27:20 IST" name="openApplication" finished-at="2024-10-14T13:27:28 IST" duration-ms="8397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="BookingConfirmationTest()[pri:0, instance:com.TestCases.TC_05_BookingConfirmationTest@5a45133e]" started-at="2024-10-14T13:27:28 IST" name="BookingConfirmationTest" finished-at="2024-10-14T13:27:42 IST" duration-ms="13222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookingConfirmationTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_05_BookingConfirmationTest@5a45133e]" started-at="2024-10-14T13:27:42 IST" name="closeapp" finished-at="2024-10-14T13:27:42 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_05_BookingConfirmationTest -->
+      <class name="com.TestCases.TC_04_BookAHotelTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_04_BookAHotelTest@1ed6388a]" started-at="2024-10-14T13:27:06 IST" name="openApplication" finished-at="2024-10-14T13:27:14 IST" duration-ms="8240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SearchHotelTest()[pri:0, instance:com.TestCases.TC_04_BookAHotelTest@1ed6388a]" started-at="2024-10-14T13:27:14 IST" name="SearchHotelTest" finished-at="2024-10-14T13:27:20 IST" duration-ms="5646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_04_BookAHotelTest@1ed6388a]" started-at="2024-10-14T13:27:20 IST" name="closeapp" finished-at="2024-10-14T13:27:20 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_04_BookAHotelTest -->
+      <class name="com.TestCases.TC_02_SearchHotelTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_02_SearchHotelTest@783a467b]" started-at="2024-10-14T13:26:53 IST" name="openApplication" finished-at="2024-10-14T13:27:03 IST" duration-ms="9524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="SearchHotelTest()[pri:0, instance:com.TestCases.TC_02_SearchHotelTest@783a467b]" started-at="2024-10-14T13:27:03 IST" name="SearchHotelTest" finished-at="2024-10-14T13:27:06 IST" duration-ms="3076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchHotelTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_02_SearchHotelTest@783a467b]" started-at="2024-10-14T13:27:06 IST" name="closeapp" finished-at="2024-10-14T13:27:06 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_02_SearchHotelTest -->
+      <class name="com.TestCases.TC_01_LoginTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_01_LoginTest@4f80542f]" started-at="2024-10-14T13:27:55 IST" name="openApplication" finished-at="2024-10-14T13:28:04 IST" duration-ms="8173" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="LoginTest()[pri:0, instance:com.TestCases.TC_01_LoginTest@4f80542f]" started-at="2024-10-14T13:28:04 IST" name="LoginTest" finished-at="2024-10-14T13:28:10 IST" duration-ms="6014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_01_LoginTest@4f80542f]" started-at="2024-10-14T13:28:10 IST" name="closeapp" finished-at="2024-10-14T13:28:15 IST" duration-ms="5249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_01_LoginTest -->
+      <class name="com.TestCases.TC_06_BookedItineryTest">
+        <test-method is-config="true" signature="openApplication(java.lang.String,java.lang.String)[pri:0, instance:com.TestCases.TC_06_BookedItineryTest@60bd273d]" started-at="2024-10-14T13:28:15 IST" name="openApplication" finished-at="2024-10-14T13:28:26 IST" duration-ms="11210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://adactinhotelapp.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="BookedItineryTest()[pri:0, instance:com.TestCases.TC_06_BookedItineryTest@60bd273d]" started-at="2024-10-14T13:28:26 IST" name="BookedItineryTest" finished-at="2024-10-14T13:28:41 IST" duration-ms="14605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BookedItineryTest -->
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:com.TestCases.TC_06_BookedItineryTest@60bd273d]" started-at="2024-10-14T13:28:41 IST" name="closeapp" finished-at="2024-10-14T13:28:41 IST" duration-ms="558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- com.TestCases.TC_06_BookedItineryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
